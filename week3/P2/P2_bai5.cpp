@@ -16,7 +16,7 @@ rect(int _x, int _y, int _w, int _h){
     x = _x; y = _y; w = _w; h = _h;
 }
 rect();
-bool contain(point p){
+bool contains(point p){
     int px = p.x, py = p.y;
     if(px >= x && px <= x + h && py >= y && py <= y + h) return 1;
     return 0;
